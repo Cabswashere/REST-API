@@ -21,11 +21,11 @@
     }
 
     public function setData($data){
-      $this->$_data = $data;
+      $this->_data = $data;
     }
 
     public function toCache($toCache){
-      $this->$_toCache = $toCache;
+      $this->_toCache = $toCache;
     }
 
     public function send() {
